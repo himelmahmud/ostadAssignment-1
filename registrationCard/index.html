@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Registration Card</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card-container">
+        <h1 class="card-title">Registration</h1>
+        <div class="input-container">
+          <div class="input-files">
+            <label for="fullName">Full Name</label>
+            <input
+              class="placeholder-style"
+              type="text"
+              id="fullName"
+              name="fullName"
+              placeholder="Enter your name"
+            />
+            <label for="Username">Username</label>
+            <input
+              class="placeholder-style"
+              type="text"
+              id="Username"
+              name="Username"
+              placeholder="Enter your username"
+            />
+          </div>
+
+          <div class="input-files">
+            <label for="email">Email</label>
+            <input
+              class="placeholder-style"
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+            />
+            <label for="phoneNumber">Phone Number</label>
+            <input
+              class="placeholder-style"
+              type="text"
+              id="phoneNumber"
+              name="phoneNumber"
+              placeholder="Enter your number"
+            />
+          </div>
+
+          <div>
+            <label for="password">Password</label>
+            <input
+              class="placeholder-style"
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Enter your password"
+            />
+            <label for="password">Confirm Password</label>
+            <input
+              class="placeholder-style"
+              type="password"
+              id="confirmPassword"
+              name="confirmPassword"
+              placeholder="Confirm your password"
+            />
+          </div>
+        </div>
+
+        <div class="gender">
+          <p>Gender</p>
+          <input type="radio" name="male" id="male" />
+          <label for="male">Male</label>
+          <input type="radio" name="female" id="female" />
+          <label for="female">Female</label>
+          <input type="radio" name="other" id="oher" />
+          <label for="other">Other</label>
+        </div>
+        <div>
+          <button class="btn cancel">Cancel</button>
+          <button class="btn submit">Submit</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
