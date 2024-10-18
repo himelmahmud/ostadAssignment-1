@@ -14,16 +14,29 @@ body {
 
 .container {
   background-color: white;
-  width: 50%;
-  height: 50%;
+  width: 400px;
+  height: 400px;
   margin: auto;
-  padding: 30px 60px;
+  padding: 10px 20px;
   border-radius: 10px;
 }
 .card-title {
   text-align: center;
   padding-bottom: 30px;
+  padding-top: 30px;
 }
+.text-bold {
+  font-weight: 700;
+}
+.input-container {
+  width: 100%;
+  display: flex;
+}
+.input-left-container,
+.input-right-container {
+  width: 50%;
+}
+
 .gender {
   padding: 5px 0 10px 0;
 }
