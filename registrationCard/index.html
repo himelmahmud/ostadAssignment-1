@@ -9,91 +9,93 @@
   <body>
     <div class="container">
       <div class="card-container">
-        <h3 class="card-title">Registration</h3>
-        <div class="input-container">
-          <div class="input-left-container">
-            <div>
-              <label for="fullName" class="text-bold">Full Name</label><br />
-              <input
-                class="placeholder-style"
-                type="text"
-                id="fullName"
-                name="fullName"
-                placeholder="Enter your name"
-              />
-            </div>
-            <div>
-              <label for="email" class="text-bold">Email</label><br />
-              <input
-                class="placeholder-style"
-                type="email"
-                id="email"
-                name="email"
-                placeholder="Enter your email"
-              />
+        <form action="">
+          <h3 class="card-title">Registration</h3>
+          <div class="input-container">
+            <div class="input-left-container">
+              <div>
+                <label for="fullName" class="text-bold">Full Name</label><br />
+                <input
+                  class="placeholder-style"
+                  type="text"
+                  id="fullName"
+                  name="fullName"
+                  placeholder="Enter your name"
+                />
+              </div>
+              <div>
+                <label for="email" class="text-bold">Email</label><br />
+                <input
+                  class="placeholder-style"
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Enter your email"
+                />
+              </div>
+
+              <div>
+                <label for="password" class="text-bold">Password</label><br />
+                <input
+                  class="placeholder-style"
+                  type="password"
+                  id="password"
+                  name="password"
+                  placeholder="Enter your password"
+                />
+              </div>
             </div>
 
-            <div>
-              <label for="password" class="text-bold">Password</label><br />
-              <input
-                class="placeholder-style"
-                type="password"
-                id="password"
-                name="password"
-                placeholder="Enter your password"
-              />
+            <div class="input-right-container">
+              <div>
+                <label for="Username" class="text-bold">Username</label><br />
+                <input
+                  class="placeholder-style"
+                  type="text"
+                  id="Username"
+                  name="Username"
+                  placeholder="Enter your username"
+                />
+              </div>
+              <div>
+                <label for="phoneNumber" class="text-bold">Phone Number</label
+                ><br />
+                <input
+                  class="placeholder-style"
+                  type="text"
+                  id="phoneNumber"
+                  name="phoneNumber"
+                  placeholder="Enter your number"
+                />
+              </div>
+              <div>
+                <label for="password" class="text-bold">Confirm Password</label
+                ><br />
+                <input
+                  class="placeholder-style"
+                  type="password"
+                  id="confirmPassword"
+                  name="confirmPassword"
+                  placeholder="Confirm your password"
+                />
+              </div>
             </div>
           </div>
 
-          <div class="input-right-container">
-            <div>
-              <label for="Username" class="text-bold">Username</label><br />
-              <input
-                class="placeholder-style"
-                type="text"
-                id="Username"
-                name="Username"
-                placeholder="Enter your username"
-              />
-            </div>
-            <div>
-              <label for="phoneNumber" class="text-bold">Phone Number</label
-              ><br />
-              <input
-                class="placeholder-style"
-                type="text"
-                id="phoneNumber"
-                name="phoneNumber"
-                placeholder="Enter your number"
-              />
-            </div>
-            <div>
-              <label for="password" class="text-bold">Confirm Password</label
-              ><br />
-              <input
-                class="placeholder-style"
-                type="password"
-                id="confirmPassword"
-                name="confirmPassword"
-                placeholder="Confirm your password"
-              />
-            </div>
+          <div class="gender">
+            <p>Gender</p>
+            <input type="radio" name="male" id="male" />
+            <label for="male">Male</label>
+            <input type="radio" name="female" id="female" />
+            <label for="female">Female</label>
+            <input type="radio" name="other" id="oher" />
+            <label for="other">Other</label>
           </div>
-        </div>
-
-        <div class="gender">
-          <p>Gender</p>
-          <input type="radio" name="male" id="male" />
-          <label for="male">Male</label>
-          <input type="radio" name="female" id="female" />
-          <label for="female">Female</label>
-          <input type="radio" name="other" id="oher" />
-          <label for="other">Other</label>
-        </div>
-        <div>
-          <button class="btn cancel">Cancel</button>
-          <button class="btn submit">Submit</button>
-        </div>
+          <div>
+            <button type="button" class="btn cancel">Cancel</button>
+            <button type="button" class="btn submit">Submit</button>
+          </div>
+        </form>
       </div>
     </div>
   </body>

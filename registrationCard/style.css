@@ -14,7 +14,7 @@ body {
 
 .container {
   background-color: white;
-  width: 400px;
+  width: 500px;
   height: 400px;
   margin: auto;
   padding: 10px 20px;
@@ -52,4 +52,15 @@ body {
 }
 .btn.submit {
   background-color: #7356a3;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 12px;
 }
